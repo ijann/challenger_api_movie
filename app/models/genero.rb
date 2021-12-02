@@ -9,4 +9,6 @@
 #  updated_at :datetime         not null
 #
 class Genero < ApplicationRecord
+
+  has_many :peliculas
 end
