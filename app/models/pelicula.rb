@@ -1,0 +1,13 @@
+# == Schema Information
+#
+# Table name: peliculas
+#
+#  id           :integer          not null, primary key
+#  titulo       :string
+#  imagen       :string
+#  calificacion :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+class Pelicula < ApplicationRecord
+end
